@@ -1,5 +1,5 @@
 FROM node:19-alpine
-WORKDIR .
+WORKDIR /usr/src/app
 COPY package.json ./
 COPY package-lock.json ./
 RUN npm install
